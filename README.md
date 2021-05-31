@@ -9,7 +9,7 @@ créer un fichier sb3 reconnu par Scratch.
 
 ## Technologies
 ***
-Logiciel utilisant Processing et les librairies OpenCV (pour la reconnaissance optiques) et GSON (pour la
+Logiciel utilisant Processing et les librairies OpenCV et Video (pour la reconnaissance optiques) et GSON (pour la
 création du fichier JSON).
 Ajout de la librairie TTSLib de Processing pour le feedback sonor.
 
