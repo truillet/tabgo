@@ -87,47 +87,7 @@ public class GestionBlocks {
   * @return true si le blocs à des inputs, sinon false
   */
   public boolean hasInput(String code) {
-    switch(code) {
-    case "55":
-    case "59":
-    case "61":
-    case "79":
-    case "87":
-    case "91":
-    case "115":
-    case "117":
-    case "155":
-    case "157":
-    case "167":
-    case "171":
-    case "173":
-    case "179":
-    case "181":
-    case "185":
-    case "199":
-    case "283":
-    case "285":
-    case "295":
-    case "299":
-    case "301":
-    case "307":
-    case "309":
-    case "313":
-    case "327":
-    case "331":
-    case "333":
-    case "339":
-    case "341":
-    case "345":
-    case "355":
-    case "369":
-    case "391":
-    case "395":
-    case "397":
-      return true;
-    default:
-      return false;
-    }
+    return ! listBlocks.get(code).getInputs().isEmpty();
   }
   
   /*
