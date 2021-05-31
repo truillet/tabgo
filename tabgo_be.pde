@@ -85,8 +85,11 @@ import guru.ttslib.*;
   public void draw() {
     switch (mae) {
       case INITIAL:
-        // rien a faire sauf afficher 
         image(cam,0,0); 
+        fill(0,0,0);
+        text("Pour lancer l'exécution, appuyez sur la touche \" espace \"",10,20);
+        text("Pour lancer un test, appuyez sur la touche \" T \"",10,40);
+        text("Pour changer de caméra, appuyez sur la touche \" C \"",10,60);
         affichage();
         break;
         
