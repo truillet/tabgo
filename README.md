@@ -9,7 +9,7 @@ créer un fichier **sb3** exécutable par Scratch.
 
 ## Technologies utilisées
 ***
-Le logiciel utilise [processing.org](https://www.processing.org et les librairies OpenCV, video (pour la reconnaissance optique) et GSON (pour la création des fichiers sb3).
+Le logiciel utilise (processing.org)[https://www.processing.org] et les librairies OpenCV, video (pour la reconnaissance optique) et GSON (pour la création des fichiers sb3).
 Enfin, la librairie TTSLib pour Processing est utilisée pour un feedback sonore.
 
 ## Installation
