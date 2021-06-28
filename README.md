@@ -14,7 +14,7 @@ Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pou
 * Téléchargement du logiciel [Processing.org](https://processing.org/download)
 * Importation des librairies *[OpenCV](https://github.com/atduskgreg/opencv-processing)*, [Video](https://github.com/processing/processing-video) et [TTSLib](https://www.local-guru.net/blog/pages/ttslib) : 
 
-`Sketch -> Importer une librairie -> Ajouter une librairie`
+`Sketch -> Importer une librairie... -> Ajouter une librairie...`
 * Importation de la librairie [gson](https://github.com/google/gson). Normalement la librairie [gson](https://github.com/google/gson) se trouve dans le sous-dossier **code** et sera chargée automatiquement. Si cela ne fonctionne pas, glissez-déposez le fichier *.jar* dans la fenêtre Processing lors de l'ouverture du programme.
 
 ## Exécution
