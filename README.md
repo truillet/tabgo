@@ -20,4 +20,4 @@ Si vous voulez lancer un script de test, appuyez sur "t" ou "T". Les fichiers de
 Le fichier **.sb3** obtenu se trouve dans le dossier "data/sb3/Programme_scratch.sb3" et peut ensuite être chargé et exécuté sur le site web [Scratch](https://scratch.mit.edu) : Bouton Créer puis menu  File -> Load from your computer
 
 ## Financement
-Ce projet a été partiellement financé via un appel à projets de l'[UNADEV](https://www.unadev.com/nos-missions/appel-a-projets) - Financement 2019.49 
+Ce projet a été partiellement financé via un appel à projets de l'[UNADEV](https://www.unadev.com/nos-missions/appel-a-projets) - Financement **2019.49** 
