@@ -29,3 +29,6 @@ Les fichiers de tests (.png) se trouvent dans le sous-dossier "data". Vous modif
 la classe "tabgo_be", dans la méthode "creation".
 Le fichier .sb3 obtenu se trouve dans le dossier "data/sb3/Programme_scratch.sb3" et peut ensuite être chargé
 dans le logiciel Scratch : Créer -> File -> Load from your computer
+
+## Financement
+Ce projet a été partiellement financé via un appel à projets de l'[UNADEV](https://www.unadev.com/nos-missions/appel-a-projets) - 2019.49 
