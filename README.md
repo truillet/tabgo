@@ -1,5 +1,6 @@
 # TaBGO
 ***
+![alt text](https://github.com/truillet/tabgo_be/blob/main/documentation/images/tabgo.png "TaBGO")
 
 ## Informations générales
 ***
