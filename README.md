@@ -11,14 +11,13 @@ Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pou
 ## Installation (à n'effectuer qu'une fois)
 * Téléchargement du logiciel [Processing.org](https://processing.org/download)
 * Importation des librairies *[OpenCV](https://github.com/atduskgreg/opencv-processing)*, [Video](https://github.com/processing/processing-video) et [TTSLib](https://www.local-guru.net/blog/pages/ttslib) : Sketch -> Importer une librairie -> Ajouter une librairie
-* Importation de la librairie [gson](https://github.com/google/gson). Normalement la librairie [gson](https://github.com/google/gson) se trouve dans le sous-dossier "code" et sera chargée automatiquement. Si cela ne fonctionne pas, glissez-déposez le *.jar* dans la fenêtre Processing lors de l'ouverture du programme sur Processing.
+* Importation de la librairie [gson](https://github.com/google/gson). Normalement la librairie [gson](https://github.com/google/gson) se trouve dans le sous-dossier **code** et sera chargée automatiquement. Si cela ne fonctionne pas, glissez-déposez le *.jar* dans la fenêtre Processing lors de l'ouverture du programme sur Processing.
 
 ## Exécution
-Après avoir appuyé sur lancer le programme Processing (bouton *"Play"*), vous pouvez scanner votre environnement de travail et commencer l'exécution du programme en appuyant sur la touche "espace".
-Si vous voulez lancer un script de test, appuyé sur "t" ou "T".
-Les fichiers de tests (images **.png**) se trouvent dans le sous-dossier "data". Modifiez le fichier à tester dans
-la classe "tabgo_be.pde", dans la méthode "creation".
-Le fichier **.sb3** obtenu se trouve dans le dossier "data/sb3/Programme_scratch.sb3" et peut ensuite être chargé dsur le site web [Scratch](https://scratch.mit.edu) : Bouton Créer puis menu  File -> Load from your computer
+Après avoir appuyé sur "lancer le programme Processing" (bouton *"Play"*), vous pouvez scanner votre environnement de travail et commencer l'exécution du programme en appuyant sur la touche "espace".
+
+Si vous voulez lancer un script de test, appuyez sur "t" ou "T". Les fichiers de tests (images **.png**) se trouvent dans le sous-dossier **data**. Modifiez le fichier à tester dans la classe "tabgo_be.pde", dans la méthode "creation".
+Le fichier **.sb3** obtenu se trouve dans le dossier "data/sb3/Programme_scratch.sb3" et peut ensuite être chargé et exécuté sur le site web [Scratch](https://scratch.mit.edu) : Bouton Créer puis menu  File -> Load from your computer
 
 ## Financement
 Ce projet a été partiellement financé via un appel à projets de l'[UNADEV](https://www.unadev.com/nos-missions/appel-a-projets) - Financement 2019.49 
