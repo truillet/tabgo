@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# TaBGO <img src="https://github.com/truillet/tabgo_be/blob/main/documentation/images/tabgo.png" width=150 alt="TaBGO">
 
-You can use the [editor on GitHub](https://github.com/truillet/tabgo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Informations générales
+Le projet TaBGO a pour objectif de permettre à des personnes non-voyantes d'utiliser le langage de programmation [Scratch](https://scratch.mit.edu) par utilisation de blocs tangibles.
+Le logiciel TaBGO permet la reconnaissance des blocs tangibles grâce à des [TopCodes](https://github.com/truillet/TopCodes) ainsi que des cubarithmes et créer un fichier **sb3** exécutable par [Scratch](https://scratch.mit.edu).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="https://github.com/truillet/tabgo_be/blob/main/documentation/images/blocks.jpg" width=400 alt="différents prototypes">
+Le code disponible ici a principalement été développé par des étudiants de L3 informatique de l'université Toulouse 3 dans le cadre de leur TER 2020/2021 et fait suite à 3 "PoC" précédents.
 
-### Markdown
+## Technologies utilisées
+Le logiciel utilise [processing.org](https://www.processing.org) et les librairies *[OpenCV](https://github.com/atduskgreg/opencv-processing)*, *[Video](https://github.com/processing/processing-video)* (pour la reconnaissance optique) et *[gson](https://github.com/google/gson)* (pour la création des fichiers **sb3**).
+Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pour Processing est utilisée pour un feedback sonore.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation (à n'effectuer qu'une fois)
+* Téléchargement du logiciel [Processing.org](https://processing.org/download)
+* Importation des librairies *[OpenCV](https://github.com/atduskgreg/opencv-processing)*, [Video](https://github.com/processing/processing-video) et [TTSLib](https://www.local-guru.net/blog/pages/ttslib) : 
 
-```markdown
-Syntax highlighted code block
+`Sketch -> Importer une librairie... -> Ajouter une librairie...`
+* Importation de la librairie [gson](https://github.com/google/gson). Normalement la librairie [gson](https://github.com/google/gson) se trouve dans le sous-dossier **code** et sera chargée automatiquement. Si cela ne fonctionne pas, glissez-déposez le fichier *.jar* dans la fenêtre Processing lors de l'ouverture du programme.
 
-# Header 1
-## Header 2
-### Header 3
+## Exécution
+Après avoir appuyé sur *"lancer le programme Processing"* (bouton *"Play"*), vous pouvez scanner votre environnement de travail et commencer l'exécution du programme en appuyant sur la touche *"espace"*.
 
-- Bulleted
-- List
+Si vous voulez lancer un script de test, appuyez sur *"t*" ou "*T*". Les fichiers de tests (images **.png**) se trouvent dans le sous-dossier **data**. Modifiez le fichier à tester dans la classe "*tabgo_be.pde*", dans la méthode "*creation*".
+Le fichier **.sb3** obtenu se trouve dans le dossier "**data/sb3/Programme_scratch.sb3**" et peut ensuite être chargé et exécuté sur le site web [Scratch](https://scratch.mit.edu) : 
 
-1. Numbered
-2. List
+`Bouton Créer puis menu  File -> Load from your computer`
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/truillet/tabgo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Financement
+Ce projet a été partiellement financé via un appel à projets de l'[UNADEV](https://www.unadev.com/nos-missions/appel-a-projets) - Financement **2019.49** 
