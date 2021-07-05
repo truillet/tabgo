@@ -5,8 +5,12 @@ Le projet TaBGO a pour objectif de permettre à des personnes non-voyantes d'uti
 Le logiciel TaBGO permet la reconnaissance des blocs tangibles grâce à des [TopCodes](https://github.com/truillet/TopCodes) ainsi que des cubarithmes et créer un fichier **sb3** exécutable par [Scratch](https://scratch.mit.edu).
 
 <img src="https://github.com/truillet/tabgo_be/blob/main/documentation/images/blocks.jpg" width=400 alt="différents prototypes">
-Le code disponible ici a principalement été développé par des étudiants de L3 informatique de l'université Toulouse 3 dans le cadre de leur TER 2020/2021 et fait suite à 3 "PoC" précédents.
+Vous pouvez consulter la documentation pour construire vos blocs au format *[docx](https://github.com/truillet/tabgo/blob/main/documentation/TaBGO_blocs_Scratch.docx)* pu *[pdf](https://github.com/truillet/tabgo/blob/main/documentation/TaBGO_blocs_Scratch.pdf)* 
 
+Des exemples d'algorithmes sont disponibles *ici* (à venir)
+
+Le code disponible ici a principalement été développé par des étudiants de L3 informatique de l'université Toulouse 3 dans le cadre de leur TER 2020/2021 et fait suite à 3 "PoC" précédents.
+https://github.com/truillet/tabgo/blob/main/documentation/TaBGO_blocs_Scratch.docx
 ## Technologies utilisées
 Le logiciel utilise [processing.org](https://www.processing.org) et les librairies *[OpenCV](https://github.com/atduskgreg/opencv-processing)*, *[Video](https://github.com/processing/processing-video)* (pour la reconnaissance optique) et *[gson](https://github.com/google/gson)* (pour la création des fichiers **sb3**).
 Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pour Processing est utilisée pour un feedback sonore.
