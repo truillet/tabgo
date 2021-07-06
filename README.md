@@ -21,7 +21,7 @@ Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pou
 * Importation des librairies *[Video](https://github.com/processing/processing-video)* et *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* : 
 
 `Sketch -> Importer une librairie... -> Ajouter une librairie...`
-* Normalement la librairie *[gson](https://github.com/google/gson)*, *[TopCodes](https://github.com/truillet/TopCodes)* et *[OpenCV](https://github.com/truillet/tabgo/blob/main/code/opencv_processing4.52.jar)* se trouvent dans le sous-dossier **code** et seront chargées automatiquement. Si cela ne fonctionne pas, glissez-déposez les fichiers *.jar* dans la fenêtre Processing lors de l'ouverture du programme.
+* Normalement les librairies *[gson](https://github.com/google/gson)*, *[TopCodes](https://github.com/truillet/TopCodes)* et *[OpenCV](https://github.com/truillet/tabgo/blob/main/code/opencv_processing4.52.jar)* se trouvent dans le sous-dossier **code** et seront chargées automatiquement. Si cela ne fonctionne pas, glissez-déposez les fichiers *.jar* dans la fenêtre Processing lors de l'ouverture du programme.
 
 ## Exécution
 Après avoir appuyé sur *"lancer le programme Processing"* (bouton *"Play"*), vous pouvez scanner votre environnement de travail et commencer l'exécution du programme en appuyant sur la touche *"espace"*.
