@@ -26,7 +26,7 @@ Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pou
 ## Exécution
 Après avoir appuyé sur *"lancer le programme Processing"* (bouton *"Play"*), vous pouvez scanner votre environnement de travail et commencer l'exécution du programme en appuyant sur la touche *"espace"*.
 
-Si vous voulez lancer un script de test, appuyez sur *"t*" ou "*T*". Les fichiers de tests (images **.png**) se trouvent dans le sous-dossier **data**. Modifiez le fichier à tester dans la classe "*tabgo_be.pde*", dans la méthode "*creation*".
+Si vous voulez lancer un script de test, appuyez sur *"t*" ou "*T*". Les fichiers de tests (images **.png**) se trouvent dans le sous-dossier **data**. Modifiez le fichier à tester dans la classe "*tabgo.pde*", dans la méthode "*creation*".
 Le fichier **.sb3** obtenu se trouve dans le dossier "**data/sb3/Programme_scratch.sb3**" et peut ensuite être chargé et exécuté sur le site web [Scratch](https://scratch.mit.edu) : 
 
 `Bouton Créer puis menu  File -> Load from your computer`
