@@ -2,23 +2,23 @@
  * TaBGO - Tangible Blocks Go Online
  * First prototype by Jean-Baptiste Marco (summer 2018)
  * Original code by Léa Berquez (summer 2020)
- * Adapté et amélioré par l'équipe du Bureau d'étude "TabGo" du Pr Philippe TRUILLET 2021 : 
+ * Adapté et amélioré par l'équipe du Bureau d'étude "TabGo" suivi par Philippe Truillet en 2021 : 
  *  - Changement de la génération du JSON grâce à la librairie GSON
  *  - Nouvelle prise en charge des blocs et TopCode (nouvelle implémentation)
  *  - Amélioration de la détection des cubarithmes
  *  - Ajout du feedback audio
  *
- * Last Revision: 05/2021
+ * Last Revision: 28/09/2021
  * 
- * utilise OpenCV 4.52 (12/10)
- * nettoyage du code (01/12)
- * création machine à états, changement de nom pour TaBGO (02/12)
- * ajout webcam + mode "T"est (03/12)
- * ajout du feedback audio via la librairie ttslib (05/21)
+ * utilise OpenCV 4.52 (12/10/20)
+ * nettoyage du code (01/12/20)
+ * création machine à états, changement de nom pour TaBGO (02/12/20)
+ * ajout webcam + mode "T"est (03/12/20)
+ * ajout du feedback audio via la librairie ttslib (xx/05/21)
  *
  */
 
-
+// import librairies
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
@@ -33,18 +33,19 @@ import org.opencv.imgproc.Moments;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-
 import gab.opencv.Contour;
 import processing.core.*;
 import processing.video.*;
 
 import guru.ttslib.*;
 
-
+// variables
   private PImage src, destination;
   private Capture cam;
   protected Scanner scanner;
   private Gson gson;
+  private PFont f;
+  
   
   public enum FSM { 
       INITIAL, // Etat initial
@@ -61,21 +62,29 @@ import guru.ttslib.*;
   private int indCam;
   private String[] listCams;
   
-  public void setting() {
+  
+  public void settings() {
     size(640,480);
   }
   
-  public void setup() {
-    size(640,480);
+  public void setup() {    
     GsonBuilder builder = new GsonBuilder();
     builder.serializeNulls();
     gson = builder.create();
     g = new GestionBlocks();
+    // all concerning font 
+    f = loadFont("B612-Bold-20.vlw");
+    
     tts = new TTS();
     mae = FSM.INITIAL;
     indCam = 0;
     listCams = Capture.list();
-    cam = new Capture(this,listCams[0]);
+    try {
+      cam = new Capture(this,listCams[0]);
+    }
+    catch (ArrayIndexOutOfBoundsException aiobe) {
+      cam = new Capture(this, "pipeline:autovideosrc"); // essaye la caméra interne
+    }
     cam.start();
     
   }
@@ -85,6 +94,8 @@ import guru.ttslib.*;
       case INITIAL:
         image(cam,0,0); 
         fill(0,0,0);
+        textSize(20);
+        textFont(f);
         text("Pour lancer l'exécution, appuyez sur la touche \" espace \"",10,20);
         text("Pour lancer un test, appuyez sur la touche \" T \"",10,40);
         text("Pour changer de caméra, appuyez sur la touche \" C \"",10,60);
@@ -113,7 +124,7 @@ import guru.ttslib.*;
        // Pour lancer une image test
        case 'T':
        case 't':
-        String im = dataPath("")+"/test_c1.jpg"; 
+        String im = dataPath("")+"/tests/test_s4.jpg"; 
         src = loadImage(im);
         tts.speak("Starting test");
         mae = FSM.CREATION;
