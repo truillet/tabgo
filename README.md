@@ -11,7 +11,7 @@ Vous pouvez consulter la documentation pour construire vos blocs au format **[do
 Des exemples d'algorithmes sont disponibles *ici* (à venir)
 
 Le code disponible ici a principalement été développé par des étudiants de L3 informatique de l'université Toulouse 3 dans le cadre de leur TER 2020/2021 et fait suite à 3 "PoC" précédents.
-https://github.com/truillet/tabgo/blob/main/documentation/TaBGO_blocs_Scratch.docx
+
 ## Technologies utilisées
 Le logiciel utilise [processing.org](https://www.processing.org) et les librairies *[OpenCV](https://github.com/truillet/tabgo/blob/main/code/opencv_processing4.52.jar)* recompilée avec la version OpenCV 4.52, *[Video](https://github.com/processing/processing-video)* (pour la reconnaissance optique), *[TopCodes](https://github.com/truillet/TopCodes)* compilée pour Processing.org et *[gson](https://github.com/google/gson)* (pour la création des fichiers **sb3**).
 Enfin, la librairie *[TTSLib](https://www.local-guru.net/blog/pages/ttslib)* pour Processing est utilisée pour un feedback sonore.
