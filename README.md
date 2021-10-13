@@ -8,7 +8,7 @@ Le logiciel TaBGO permet la reconnaissance des blocs tangibles grâce à des [To
 
 Vous pouvez consulter la documentation pour construire vos blocs au format **[docx](https://github.com/truillet/tabgo/blob/main/documentation/TaBGO_blocs_Scratch.docx)** ou **[pdf](https://github.com/truillet/tabgo/blob/main/documentation/TaBGO_blocs_Scratch.pdf)**
 
-Des exemples d'algorithmes sont disponibles *ici* (à venir)
+Des exemples d'algorithmes sont disponibles : *[exemple 2](https://github.com/truillet/tabgo/blob/main/documentation/s2_topcodes.png)* (*[version origninale ici](https://github.com/truillet/tabgo/blob/main/documentation/s2.png)*)
 
 Le code disponible ici a principalement été développé par des étudiants de L3 informatique de l'université Toulouse 3 dans le cadre de leur TER 2020/2021 et fait suite à 3 "PoC" précédents.
 
